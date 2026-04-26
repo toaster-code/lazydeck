@@ -7,17 +7,14 @@
   "btn_close": "Fermer",
   "btn_copy": "Copier",
   "btn_browse": "Parcourir",
-
   "step_language": "Langue",
   "step_welcome": "Bienvenue",
   "step_nas": "Configuration NAS",
   "step_cache": "Paramètres du cache",
   "step_install": "Installation",
   "step_done": "Terminé",
-
   "welcome_title": "Configuration du cache NAS pour Steam Deck",
   "welcome_body": "Cet installateur va configurer votre Steam Deck pour :\n\n  • Monter votre NAS via NFS automatiquement\n  • Mettre en cache les fichiers que vous ouvrez\n  • Garder les jeux récents disponibles hors ligne\n\nTout ce qui est installé reste dans votre dossier home\net survit aux mises à jour de SteamOS.\n\nAssurez-vous que votre NAS est accessible avant de continuer.",
-
   "nas_title": "Configuration du NAS",
   "nas_ip": "Adresse IP du NAS",
   "nas_ip_hint": "ex : 192.168.0.40",
@@ -31,7 +28,6 @@
   "nas_mountpoint2_hint": "ex : /var/mnt/nas2",
   "nas_roms_folder": "Sous-dossier ROMs dans le partage 1",
   "nas_roms_folder_hint": "Laisser vide pour utiliser la racine du partage",
-
   "cache_title": "Paramètres du cache",
   "cache_size": "Taille maximale du cache",
   "cache_size_hint": "ex : 1G, 5G, 20G",
@@ -42,7 +38,6 @@
   "cache_mount": "Point de montage pour les émulateurs",
   "cache_mount_hint": "Où vos émulateurs doivent chercher les ROMs",
   "cache_info": "ℹ  Pointez vos émulateurs (RetroArch, RetroDeck, ES-DE)\nvers le point de montage ci-dessus après l'installation.",
-
   "install_title": "Installation en cours...",
   "install_step_dirs": "Création des dossiers...",
   "install_step_rclone": "Téléchargement de rclone...",
@@ -51,13 +46,10 @@
   "install_step_systemd_rclone": "Création du service rclone...",
   "install_step_enable": "Activation des services...",
   "install_step_done": "Terminé !",
-
   "done_title": "Installation terminée !",
   "done_body": "Votre cache NAS est maintenant configuré.\n\nÉtapes suivantes :\n\n  1. Pointez vos émulateurs vers :\n     {mount_point}\n\n  2. Jouez à la maison — les jeux sont mis en cache automatiquement\n\n  3. En déplacement, les jeux déjà mis en cache fonctionnent hors ligne\n\nAprès une mise à jour de SteamOS, relancez cet installateur\nou exécutez le script de réparation pour recréer les chemins /var/mnt.",
-
   "done_repair_title": "Après les mises à jour SteamOS",
   "done_repair_body": "Exécutez cette commande pour restaurer les points de montage après une mise à jour :",
-
   "error_ip": "Veuillez entrer une adresse IP valide.",
   "error_share": "Le chemin du partage 1 ne peut pas être vide.",
   "error_mount": "Le point de montage doit commencer par /",
@@ -65,7 +57,19 @@
   "error_cache_age": "La durée de vie doit être un nombre en heures.",
   "error_rclone_download": "Échec du téléchargement de rclone. Vérifiez votre connexion internet.",
   "error_sudo": "Cette étape nécessite sudo. Entrez votre mot de passe deck dans le terminal.",
-
   "log_title": "Journal d'installation",
-  "select_language": "Choisissez votre langue"
+  "select_language": "Choisissez votre langue",
+  "detect_title": "Vérification de l'installation...",
+  "detect_rclone_bin": "Binaire rclone",
+  "detect_rclone_conf": "Config rclone",
+  "detect_nfs_unit": "Unité de montage NFS",
+  "detect_rclone_service": "Service systemd rclone",
+  "detect_cache_dir": "Dossier du cache",
+  "detect_cache_used": "Cache utilisé",
+  "detect_status_fresh": "Non installé. Lancez l'installation complète.",
+  "detect_status_ok": "Installation complète et fonctionnelle. ✓",
+  "detect_status_repair": "Installation partielle détectée — peut-être après une mise à jour SteamOS.",
+  "btn_full_install": "Installation complète →",
+  "btn_repair": "🔧 Réparer",
+  "repair_title": "Réparation en cours..."
 }
