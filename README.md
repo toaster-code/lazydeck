@@ -1,5 +1,6 @@
-# Steam Deck — NAS Network Cache with rclone
+# Lazydeck
 
+Steam Deck — NAS Network Cache with rclone
 Mount your NAS on the Steam Deck with automatic local caching, so the last games you played remain available even when you're away from home — without downloading anything manually.
 
 ---
