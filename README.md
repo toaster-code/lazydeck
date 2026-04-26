@@ -1,8 +1,9 @@
 # Lazydeck
 
+![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![Platform](https://img.shields.io/badge/platform-Steam%20Deck%20%2F%20SteamOS-informational) ![License](https://img.shields.io/badge/license-MIT-green)
+
 Steam Deck — NAS Network Cache with rclone
 Mount your NAS on the Steam Deck with automatic local caching, so the last games you played remain available even when you're away from home — without downloading anything manually.
-![Python](https://img.shields.io/badge/python-3.8%2B-blue) ![Platform](https://img.shields.io/badge/platform-Steam%20Deck%20%2F%20SteamOS-informational) ![License](https://img.shields.io/badge/license-MIT-green)
 
 ---
 
