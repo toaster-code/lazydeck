@@ -1,0 +1,73 @@
+{
+  "_instructions": "Copy this file, rename it to your language code (e.g. de.json, es.json), translate all values. Do not change the keys. The lang_name value appears in the language selector.",
+
+  "lang_name": "Your Language Name",
+  "app_title": "Steam Deck — NAS Cache Installer",
+  "btn_next": "Next →",
+  "btn_back": "← Back",
+  "btn_install": "Install",
+  "btn_close": "Close",
+  "btn_copy": "Copy",
+  "btn_browse": "Browse",
+
+  "step_language": "Language",
+  "step_welcome": "Welcome",
+  "step_nas": "NAS Configuration",
+  "step_cache": "Cache Settings",
+  "step_install": "Installation",
+  "step_done": "Done",
+
+  "welcome_title": "NAS Cache Setup for Steam Deck",
+  "welcome_body": "This installer will configure your Steam Deck to:\n\n  • Mount your NAS via NFS automatically\n  • Cache files you access locally\n  • Keep recently played games available offline\n\nEverything installed stays in your home folder\nand survives SteamOS updates.\n\nMake sure your NAS is reachable before continuing.",
+
+  "nas_title": "NAS Configuration",
+  "nas_ip": "NAS IP Address",
+  "nas_ip_hint": "e.g. 192.168.0.40",
+  "nas_share1": "NFS Share 1 (ROMs / main)",
+  "nas_share1_hint": "e.g. /volume2/steamdeck",
+  "nas_share2": "NFS Share 2 (optional)",
+  "nas_share2_hint": "e.g. /volume1/software  (leave blank to skip)",
+  "nas_mountpoint1": "Local mount point for share 1",
+  "nas_mountpoint1_hint": "e.g. /var/mnt/nas",
+  "nas_mountpoint2": "Local mount point for share 2",
+  "nas_mountpoint2_hint": "e.g. /var/mnt/nas2",
+  "nas_roms_folder": "ROMs subfolder inside share 1",
+  "nas_roms_folder_hint": "Leave blank to use root of share",
+
+  "cache_title": "Cache Settings",
+  "cache_size": "Maximum cache size",
+  "cache_size_hint": "e.g. 1G, 5G, 20G",
+  "cache_age": "Cache expiry (hours)",
+  "cache_age_hint": "How long unused files stay cached (e.g. 720 = 30 days)",
+  "cache_dir": "Cache directory",
+  "cache_dir_hint": "Where cached files are stored (must be in /home)",
+  "cache_mount": "Mount point for emulators",
+  "cache_mount_hint": "Where your emulators should look for ROMs",
+  "cache_info": "ℹ  Point your emulators (RetroArch, RetroDeck, ES-DE)\nto the mount point above after installation.",
+
+  "install_title": "Installing...",
+  "install_step_dirs": "Creating directories...",
+  "install_step_rclone": "Downloading rclone...",
+  "install_step_rclone_config": "Configuring rclone remotes...",
+  "install_step_systemd_nfs": "Creating NFS mount units...",
+  "install_step_systemd_rclone": "Creating rclone service...",
+  "install_step_enable": "Enabling services...",
+  "install_step_done": "Done!",
+
+  "done_title": "Installation complete!",
+  "done_body": "Your NAS cache is now configured.\n\nWhat to do next:\n\n  1. Point your emulators to:\n     {mount_point}\n\n  2. Play games while at home — they get cached automatically\n\n  3. When away, already-cached games work offline\n\nAfter a SteamOS update, run this installer again\nor run the repair script to recreate /var/mnt paths.",
+
+  "done_repair_title": "After SteamOS updates",
+  "done_repair_body": "Run this command to restore mount points after an update:",
+
+  "error_ip": "Please enter a valid IP address.",
+  "error_share": "Share 1 path cannot be empty.",
+  "error_mount": "Mount point must start with /",
+  "error_cache_size": "Cache size must be a number followed by G or M (e.g. 1G).",
+  "error_cache_age": "Cache age must be a number in hours.",
+  "error_rclone_download": "Failed to download rclone. Check your internet connection.",
+  "error_sudo": "This step requires sudo. Enter your deck password when prompted in the terminal.",
+
+  "log_title": "Installation log",
+  "select_language": "Select your language"
+}
