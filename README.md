@@ -63,7 +63,7 @@ Or re-run the installer — it skips steps that are already done.
 
 ---
 
-## Adding a language to the installer
+## [MODS] Adding a language to the installer UI
 
 Users that want to fork or contribute, please copy `lang/TEMPLATE.json`, rename it to your language code (e.g. `de.json`, `es.json`), and translate the values. The installer picks it up automatically on next launch.
 
