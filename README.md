@@ -63,9 +63,9 @@ Or re-run the installer — it skips steps that are already done.
 
 ---
 
-## Adding a language
+## Adding a language to the installer
 
-Copy `lang/TEMPLATE.json`, rename it to your language code (e.g. `de.json`, `es.json`), and translate the values. The installer picks it up automatically on next launch.
+Users that want to fork or contribute, please copy `lang/TEMPLATE.json`, rename it to your language code (e.g. `de.json`, `es.json`), and translate the values. The installer picks it up automatically on next launch.
 
 ---
 
