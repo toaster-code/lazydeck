@@ -9,8 +9,6 @@ Mount your NAS on the Steam Deck with automatic local caching, so the last games
 
 ## How it works
 
-Please for details read the file [DETAILS.md](./DETAILS.md).
-
 While at home on your local network, RoamDeck mounts your NAS via NFS and transparently caches every file you open onto the Deck's internal storage. When you leave home, the cached files stay available — your emulators see no difference.
 
 - **No manual downloads.** Play a game once and it's cached automatically.
